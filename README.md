@@ -6,10 +6,10 @@ I propose to analyze storm event data made available by the National Oceanic and
 
 ## Preliminary Plots
 
-Linear regression between the number of storm-connected injuries and year resulted in a slope of -378.5 and a coefficient of determination of 0.228.
+Linear regression of the number of storm-connected injuries and year resulted in a slope of -378.5 and a coefficient of determination of 0.228.
 
 ![storm_event_connected_injuries.jpeg](storm_event_connected_injuries.jpeg)
 
-Linear regression between the number of storm-connected damage costs and year resulted in a slope of 1072615 and a coefficient of determination of 0.158.
+Linear regression of storm-connected damage costs and year resulted in a slope of approximately 10^6 and a coefficient of determination of 0.158.
 
 ![storm_event_connected_damage_costs.jpeg](storm_event_connected_damage_costs.jpeg)
