@@ -2,14 +2,42 @@
 ---
 ## Overview
 
-I propose to analyze storm event data made available by the National Oceanic and Atmospheric Administration (NOAA) and develop a tool that will offer insight into damage costs, injuries, and fatalities resulting from storm events in the United States from 1950 to 2019. This tool could be used to improve public awareness about the evolution of storm events in recent history in terms of frequencies of occurrence, location(s) within the United States, and the societal impact. One motivation for this project is that much of the discussion on climate change has been focused - quite understandably - on rising temperatures and sea levels, but less so on how storm event patterns are changing. Preliminary analyses revealed no definite trends between 2009 and 2018.
+Climate change is among the most significant issues of our time. Much of the discussion has been focused on rising tempereatures and sea levels and the causative factors in these changes. Less attention has been given to storm even patterns and the attendant damage costs, injuries, and fatalities. In my view, it is easier to capture the public consciousness with the latter issues as opposed to the former. This motivated me to analyze storm event data made available by the National Oceanic and Atmospheric Administration (NOAA) and develop a tool that could improve public awareness of the issues surrounding climate change. The dataset is a little over 1GB in size.
 
 ## Preliminary Plots
 
-Linear regression of the number of storm-connected injuries and year resulted in a slope of -378.5 and a coefficient of determination of 0.228.
+While there are upward trends in injuries, fatalities and damage costs from 1950 to 2018, from bar graphs and linear regression analyses we observe more notable upward trends in fatalities and damage costs (R^2 ~ 40%) than in injuries (R^2 ~ 10%).
 
-![storm_event_connected_injuries.jpeg](storm_event_connected_injuries.jpeg)
+Linear regression of the number of storm event direct injuries and year resulted in a slope of 26.4 and a coefficient of determination of 0.082.
 
-Linear regression of storm-connected damage costs (in thousands of dollars) and year resulted in a slope of approximately 10^6 and a coefficient of determination of 0.158.
+![storm_event_connected_direct_injuries.jpeg](storm_event_connected_direct_injuries.jpeg)
+
+Linear regression of the number of storm event direct deaths and year resulted in a slope of 8.73 and a coefficient of determination of 0.384.
+
+![storm_event_connected_direct_deaths.jpeg](storm_event_connected_direct_deaths.jpeg)
+
+Linear regression of the storm event property damage (in billions of dollars) and year resulted in a slope of 0.172 and a coefficient of determination of 0.366.
 
 ![storm_event_connected_damage_costs.jpeg](storm_event_connected_damage_costs.jpeg)
+
+From linear regression analyses on a state by state basis, I observed that California and Florida are two of the primary drivers of the rise in fatalities due to storm events from 1950 to 2018.
+
+![heat_map_direct_death_slope.png](heat_map_direct_death_slope.png)
+
+![heat_map_direct_death_R2.png](heat_map_direct_death_R2.png)
+
+
+## Additional Plots
+
+The following heat maps are for direct injuries and property damage (in billions of dollars).
+
+![heat_map_direct_injury_slope.png](heat_map_direct_injury_slope.png)
+
+![heat_map_direct_injury_R2.png](heat_map_direct_injury_R2.png)
+
+![heat_map_property_damage_slope.png](heat_map_property_damage_slope.png)
+
+![heat_map_property_damage_R2.png](heat_map_property_damage_R2.png)
+
+
+
