@@ -18,7 +18,7 @@ Linear regression of the number of storm event direct deaths and year resulted i
 
 Linear regression of the storm event property damage (in billions of dollars) and year resulted in a slope of 0.172 and a coefficient of determination of 0.366.
 
-![storm_event_connected_damage_costs.jpeg](storm_event_connected_damage_costs.jpeg)
+![storm_event_connected_damage_costs.jpeg](storm_event_connected_property_damage_costs.jpeg)
 
 From linear regression analyses on a state by state basis, I observed that California and Florida are two of the primary drivers of the rise in fatalities due to storm events from 1950 to 2018.
 
