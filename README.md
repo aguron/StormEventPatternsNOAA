@@ -2,7 +2,7 @@
 ---
 ## Overview
 
-Climate change is among the most significant issues of our time. Much of the discussion has been focused on rising temperatures and sea levels and the causative factors in these changes. Less attention has been given to storm event patterns and the attendant damage costs, injuries, and fatalities. In my view, it is easier to capture the public consciousness with the latter issues as opposed to the former. This motivated me to analyze storm event data made available by the National Oceanic and Atmospheric Administration (NOAA) and develop a tool to enhance public awareness of the issues surrounding climate change. The dataset is a little over 1GB in size.
+Climate change is among the most significant issues of our time. Much of the discussion has been focused on rising temperatures and sea levels and the causative factors in these changes. Less attention has been given to storm event patterns and the attendant damage costs, injuries, and fatalities. In my view, it is easier to capture public consciousness with the latter issues as opposed to the former. This motivated me to analyze storm event data made available by the National Oceanic and Atmospheric Administration (NOAA) and develop a tool to enhance public awareness of the issues surrounding climate change. The dataset is a little over 1GB in size.
 
 ## Preliminary Plots
 
